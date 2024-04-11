@@ -1,0 +1,3 @@
+# doublePendulum
+make ./main
+./main
