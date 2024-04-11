@@ -1,4 +1,4 @@
-# Double Pendulum Chaos Theory
+# Double Pendulum Chaos
 
 Here you can find the code to simulate 200 double pendulum with very small different start configuration!
 
