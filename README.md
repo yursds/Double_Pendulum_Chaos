@@ -2,7 +2,7 @@
 
 Here you can find the code to simulate 200 double pendulum with very small different start configuration!
 
-To execute the simulation SFML library is necessary.  
+SFML library is necessary to execute the simulation.  
 For linux system you can install necessary package with:
 
     sudo apt-get install libsfml-dev
