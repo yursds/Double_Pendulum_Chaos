@@ -17,6 +17,8 @@ Navigate into the folder and run the following command:
     ./main
 
 You can use [header file](./include/double_pendulum.h) to change parameters of simulation.  
+
+## Simulation
 Command:
 * Keyboard_Space to start simulation
 * Keyboard_Right to increase first (absolute) angle of PI/36
