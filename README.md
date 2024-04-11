@@ -22,4 +22,4 @@ You can use [header file](./include/double_pendulum.h) to change parameters of s
 
 Video demostration:
 
-<img src="image/video_doublePendulum.gif" alt="IMAGE ALT TEXT HERE" width="550" height="550">
+<img src="image/video_doublePendulum.gif" alt="IMAGE ALT TEXT HERE" width="350" height="350">
