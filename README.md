@@ -1,6 +1,6 @@
 # Double Pendulum Chaos Theory
 
-Here you can find the code to simulate 200 double pendulum!
+Here you can find the code to simulate 200 double pendulum with very small different start configuration!
 
 To execute the simulation SFML library is necessary.  
 For linux system you can install necessary package with:
