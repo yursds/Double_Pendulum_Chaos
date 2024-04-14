@@ -32,4 +32,4 @@ Command:
 
 ## Video demostration:
 
-<img src="image/video_doublePendulum.gif" alt="IMAGE ALT TEXT HERE" width="350" height="350">
+<img src="image/video.gif" alt="IMAGE ALT TEXT HERE" width="350" height="350">
