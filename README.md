@@ -4,7 +4,7 @@ A visualization of 200 double pendulums with slightly different initial conditio
 
 [![SFML](https://img.shields.io/badge/SFML-2.5.1-blue.svg)](https://www.sfml-dev.org/)
 
-<img src="images/video.gif" alt="Double Pendulum Chaos Demonstration" width="400" height="400">
+<img src="image/video.gif" alt="Double Pendulum Chaos Demonstration" width="400" height="400">
 
 ## Table of Contents
 - [Dependencies](#-dependencies)
