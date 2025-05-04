@@ -1,35 +1,60 @@
-# Double Pendulum Chaos
+# 🌀 Double Pendulum Chaos Simulation
 
-Here you can find the code to simulate 200 double pendulum with very small different start configuration!
+A visualization of 200 double pendulums with slightly different initial conditions, demonstrating chaotic behavior.
 
-SFML library is necessary to execute the simulation.  
-For linux system you can install necessary package with:
+[![SFML](https://img.shields.io/badge/SFML-2.5.1-blue.svg)](https://www.sfml-dev.org/)
 
-    sudo apt-get install libsfml-dev
+<img src="images/video.gif" alt="Double Pendulum Chaos Demonstration" width="400" height="400">
 
-Clone the repostery:
+## Table of Contents
+- [Dependencies](#-dependencies)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Configuration](#-configuration)
+- [Controls](#-controls)
+- [License](#-license)
 
-    git clone https://github.com/yursds/double_pendulum_chaos.git
+## 📦 Dependencies
+- SFML (Simple and Fast Multimedia Library)
+- C++17 compiler
+- Make build system
 
-Navigate into the folder and run the following command:
+### Installing SFML
+**Linux:**
+```bash
+sudo apt-get install libsfml-dev
+``` 
 
-    make ./main
-    ./main
+## 🛠️ Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/yursds/double_pendulum_chaos.git
+cd double_pendulum_chaos
+``` 
 
-You can use [header file](./include/double_pendulum.h) to change parameters of simulation.  
+2. Build the project:
+```bash
+make
+``` 
 
-## Simulation
-Command:
-* Keyboard_Space to start simulation
-* Keyboard_Right to increase first (absolute) angle of PI/36
-* Keyboard_Left to decrease first (absolute) angle of PI/36
-* Keyboard_Up to increase second (absolute) angle of PI/36
-* Keyboard_Down to decrease second (absolute) angle of PI/36
-* Keyboard_R to reset simulation
-  
+## 🚀 Usage
+Run the simulation:
+```bash
+./main
+``` 
 
+## ⚙️ Configuration
+Modify simulation parameters in [`include/double_pendulum.h`](include/double_pendulum.h):
+- Number of pendulums
+- Initial angle ranges
+- Physical properties (masses, lengths)
+- Visual properties (colors, trail length)
 
-
-## Video demostration:
-
-<img src="image/video.gif" alt="IMAGE ALT TEXT HERE" width="350" height="350">
+## 🎮 Controls
+| Key            | Action                          |
+|----------------|---------------------------------|
+| `SPACE`        | Start/Pause simulation         |
+| `LEFT/RIGHT`   | Adjust first angle (±π/36)     |
+| `UP/DOWN`      | Adjust second angle (±π/36)    |
+| `R`            | Reset simulation               |
+| `ESCAPE`       | Quit application               |
